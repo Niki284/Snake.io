@@ -2,16 +2,16 @@ const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
 const ground = new Image();
-ground.src = "../client/img/ground.png";
+ground.src = "img/ground.png";
 
 var foodImg = [];
 foodImg[0] = new Image();
 foodImg[1] = new Image();
 foodImg[2] = new Image();
 
-foodImg[0].src = '../client/img/peer.png'
-foodImg[1].src = '../client/img/banaan.png'
-foodImg[2].src = '../client/img/kers.png'
+foodImg[0].src = 'img/peer.png'
+foodImg[1].src = 'img/banaan.png'
+foodImg[2].src = 'client/img/kers.png'
 let box = 32;
 
 
